@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.carousel-container {
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.slide {
+    width: 500px;
+    height: 500px;
+}
+
+button {
+    height: 50px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
